@@ -1,0 +1,107 @@
+h1{color:#43cf3c;}
+h2{color:#07367d;}
+h3{color:#e3d80e;}
+h4{color:#dae8e8;}
+body {background:#86779e; }
+
+/*adding font using a local folder file
+*/
+@font-face {src:url(fonts/Minecrafter.Alt.ttf);
+font-family:mine;}
+
+@font-face {src:url(fonts/Pacifico-Regular.ttf); 
+font-family:pac;}
+
+@font-face {src: url(fonts/Pixelmania.ttf); 
+font-family:pix;}
+
+ /* adding font using an url link from google fonts */
+
+.league {
+font-size: 50px;
+line-height: 2;
+text-align: center;
+font-family:'League Script', cursive;}
+    
+    
+.fontpac {font-size: 50px;
+line-height: 2;
+text-align: center;
+font-family: 'pac';}
+
+.paragraph
+{ font-size: 22px;
+line-height: 2;
+ text-align: center;
+font-family: 'mine'; }
+
+.fontP{ font-size: 22px;
+line-height: 2;
+text-align: center;
+font-family:'pix';}
+
+.font1{
+    font-size: 45px;
+    line-height:32px;
+    text-align: center;
+    font-family: 'Rubik Distressed';}
+
+.font2{
+    font-size: 20px;
+    line-height: 25px;
+     text-align: center;
+    font-family: fantasy;}
+
+.font3{font-size: 22px;
+line-height: 18px;
+text-align: center;
+font-family: fantasy;}
+
+.font4{font-size: 21px;
+    line-height: 25px;
+     text-align: center;
+    font-family: 'mine';}
+
+.font5 {font-size: 21px;
+line-height: :25px;
+text-align: center;
+font-family:'cub';}
+
+.font6 {font-size: 20px;
+line-height: :27px;
+text-align: center;
+font-family: 'BhuTuka Expanded One';}
+    
+.font7 {font-size: 20px;
+line-height: :25px;
+text-align: center;
+font-family: 'Rubik Microbe', cursive;
+}
+.font8{font-size: 20px;
+line-height: :25px;
+text-align: center;
+font-family: 'Nova Cut', cursive;}
+
+}
+
+.outline {outline-color:#dae8e8;
+font-size: 50px;
+text-align: center;
+font-family: sans-serif;
+outline-width: 10px;}
+
+
+.header {
+  padding: 18px;
+  text-align: center;
+  background:#26355e;
+  color: #f6d81c;
+  font-size: 25px;
+font-family:'mine';}
+
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
